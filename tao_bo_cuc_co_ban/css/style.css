@@ -1,0 +1,100 @@
+
+#head{
+    background: blueviolet;
+    height: 150px;
+    width: 100%;
+
+}
+#logo {
+    background: yellow;
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+#banner {
+    background: plum;
+    width: 75%;
+    height: 150px;
+    float: right;
+}
+
+#navi {
+    background: aqua;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin-top: 0;
+}
+/*#navifoot {*/
+/*    background: aqua;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    clear: both;*/
+/*    margin-top: 0;*/
+/*}*/
+.navigation {
+    background: black;
+    width: 25%;
+    height: 140px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.navigation1 {
+    background: black;
+    width: 38.5%;
+    height: 140px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.new{
+    background: aqua;
+    width: 15%;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    /*float: left;*/
+}
+/*#hotnew{*/
+/*    background: burlywood;*/
+/*    width: 20%;*/
+/*    height: 130px;*/
+/*    float: right;   */
+/*    !*clear: left;*!*/
+/*}*/
+
+.box {
+    width: 200px;
+    height: 20px;
+    background: aqua;
+    border: solid 3px black;
+    /*padding:0px 10px 10px 10px;*/
+    margin: 10px;
+    border-radius: 30%;
+    float: right;
+}
+
+#main{
+    background: blueviolet;
+    height: 500px;
+    width: 70%;
+    float: left;
+}
+#sidebar {
+    background: brown;
+    height: 500px;
+    width: 30%;
+    float: right;
+}
+#footer{
+      background: yellowgreen;
+      height: 100px;
+      width: 100%;
+      clear:both;
+  }
+#foot{
+    float: right;
+}
