@@ -4,45 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Layout</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/poly.css">
 </head>
 <body>
 <div class="container" style="height: auto">
-    <header class="row">
-        <div class="shopping-mall">
-            <h1>Online shopping mall</h1>
-            <h5>The center point of the professional programming</h5>
-        </div>
-                <img class = "pull-right" src="image/header-object.png"/>
-    </header>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a>
+                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span> Trang chủ</a>
                 <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list-alt"></span> Giới thiệu</a>
                 <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-earphone"></span> Liên hệ</a>
                 <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-envelope"></span> Góp ý</a>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="navbar-brand" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Tài khoản<span
+                           aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> Thêm mới<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Đăng Nhập</a></li>
-                            <li><a href="#">Quên mật khẩu</a></li>
-                            <li><a href="#">Đăng kí thành viên</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Đăng xuất</a></li>
-                            <li><a href="#">Đổi mật khẩu</a></li>
-                            <li><a href="#">Cập nhậy hồ sơ</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Đơn hàng</a></li>
-                            <li><a href="#">Hàng đã mua</a></li>
+                            <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Khách Hàng</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Nhân Viên</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> Dịch Vụ</a></li>
+<!--                            <li role="separator" class="divider"></li>-->
+                            <li><a href="#"><span class="glyphicon glyphicon-fire"></span> Hợp Đồng</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span> Hợp Đồng Chi Tiết</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,84 +44,84 @@
     <div class="row">
         <article class="col-sm-9">
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            Villa 5*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <a href="#"><img src="image/Resort.jpeg" height="228" width="200"/></a></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
                 </div>
             </div>
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            Villa 4*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <img src="image/resort1.jpg" height="228" width="200"/></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
                 </div>
             </div>
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            Room 3*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <img src="image/resort2.jpg" height="228" width="200"/></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
                 </div>
             </div>
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            House 5*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <img src="image/resort3.jpg" height="228" width="200"/></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
                 </div>
             </div>
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            Room 3*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <img src="image/resort4.jpg" height="228" width="200"/></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
                 </div>
             </div>
             <div class = "col-sm-4 poly-prod">
-                <div class = "panel panel-default">
+                <div class = "panel panel-primary">
                     <div class = "panel-heading">
                         <h4 class = "panel-title">
-                            Nokia
+                            Room 5*
                         </h4>
                     </div>
                     <div class = "panel-body">
-                        <img src="image/computer.png" height="228" width="200"/></div>
+                        <img src="image/resort5.jpg" height="228" width="200"/></div>
                     <div class = "panel-footer">
                         $ 100.25
                     </div>
@@ -142,9 +130,9 @@
         </article>
         <aside class="col-sm-3">
             <div class = "poly-cart">
-                <div class="panel panel-default">
+                <div class="panel panel-primary">
                     <div class="panel-body">
-                        <img class="col-sm-5" src="image/shoppingcart.gif"/>
+                        <img class="col-sm-5" src="image/cart.png"/>
                         <ul class="col-sm-7">
                             <li>100 items</li>
                             <li>$56.8</li>
@@ -163,25 +151,23 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <span class = "glyphicon glyphicon-th-list"></span>
-                    <strong>Chủng Loại</strong>
+                    <strong>Loại Dịch Vụ</strong>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Điện thoại di động</a>
-                    <a href="#" class="list-group-item">Máy tính xách tay</a>
-                    <a href="#" class="list-group-item">Máy tính để bàn</a>
-                    <a href="#" class="list-group-item">Quạt máy</a>
-                    <a href="#" class="list-group-item">Tivi</a>
-                    <a href="#" class="list-group-item">Tủ lạnh</a>
+                    <a href="#" class="list-group-item list-group-item-danger">Villa</a>
+                    <a href="#" class="list-group-item list-group-item-danger">House</a>
+                    <a href="#" class="list-group-item list-group-item-danger">Room</a>
                 </div>
             </div>
         </aside>
 
     </div>
-    <footer class="panel panel-default">
+    <footer class="panel panel-primary">
         <div class="panel-heading text-center">
-            <p>CodeGym &copy; 2017</p>
+            <p>CodeGym &copy; 2019</p>
         </div>
     </footer>
 </div>
+
 </body>
 </html>
