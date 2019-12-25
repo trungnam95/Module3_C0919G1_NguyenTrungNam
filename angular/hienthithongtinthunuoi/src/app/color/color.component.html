@@ -1,0 +1,6 @@
+<p>color works!</p>
+<div>
+  <input [value]="background" type="color" (change)="onChange($event.target.value)">
+</div>
+<p>output</p>
+<div class="color-preview" [style.background]="background"></div>
