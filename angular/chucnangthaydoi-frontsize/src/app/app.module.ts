@@ -1,3 +1,4 @@
+import { DictionaryService } from './dictionary.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -34,7 +35,7 @@ import { DictionaryComponent } from './dictionary/dictionary.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [DictionaryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
