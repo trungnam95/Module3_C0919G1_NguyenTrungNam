@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="457a7c75-8dcd-4af1-be5a-178c77c691ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/draggable.html" beforeDir="false" afterPath="$PROJECT_DIR$/draggable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tao_layout_trong_bootrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tao_layout_trong_bootrap/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="457a7c75-8dcd-4af1-be5a-178c77c691ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -108,7 +105,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tao_layout_trong_bootrap" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -148,15 +145,15 @@
       <workItem from="1576464268430" duration="6346000" />
       <workItem from="1576545268473" duration="385000" />
       <workItem from="1576748029511" duration="516000" />
+      <workItem from="1577691283366" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7247000" />
+    <option name="totallyTimeSpent" value="7298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -181,13 +178,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/draggable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -203,6 +193,13 @@
             <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
         </state>
       </provider>
     </entry>
