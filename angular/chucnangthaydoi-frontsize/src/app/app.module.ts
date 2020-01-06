@@ -14,6 +14,7 @@ import { YoutubeplayerComponent } from './youtubeplayer/youtubeplayer.component'
 import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail.component';
 import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DictionaryComponent } from './dictionary/dictionary.component';
     DictionaryDetailComponent,
     DictionaryPageComponent,
     DictionaryComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

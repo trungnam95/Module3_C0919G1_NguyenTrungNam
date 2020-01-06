@@ -21,18 +21,15 @@ export class DateUtilService {
             result.push(`${years} years`);
             diff = addYears(diff, years);
         }
-
         const months = differenceInMonths(now, diff);
         result.push(`${months} months`);
         if (months > 0) {
             diff = addMonths(diff, months);
         }
-
         const days = differenceInDays(now, diff);
         if (days > 0) {
             result.push(`${days} days`);
         }
-
         return result.join(' ');
     }
 }
